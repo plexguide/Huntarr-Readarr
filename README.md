@@ -4,7 +4,7 @@
 
 <table>
   <tr>
-    <td colspan="2"><img src="https://github.com/user-attachments/assets/3ea6d2a0-19fd-4e7c-9dfd-797e735b2955" width="100%"/></td>
+    <td colspan="2"><img src="https://github.com/user-attachments/assets/3c7a6cd9-3dbd-4e64-bfa1-09a5ade56935" width="100%"/></td>
   </tr>
 </table>
 
@@ -182,7 +182,7 @@ docker run -d --name huntarr-readarr \
   -e REFRESH_AUTHOR="true" \
   -e STATE_RESET_INTERVAL_HOURS="168" \
   -e DEBUG_MODE="false" \
-  huntarr/4readarr:1.0
+  huntarr/4readarr:latest
 ```
 
 To check on the status of the program, you should see new files downloading or you can type:
@@ -198,7 +198,7 @@ For those who prefer Docker Compose, add this to your `docker-compose.yml` file:
 version: "3.8"
 services:
   huntarr-readarr:
-    image: huntarr/4readarr:1.0
+    image: huntarr/4readarr:latest
     container_name: huntarr-readarr
     restart: always
     environment:
@@ -246,7 +246,7 @@ docker run -d --name huntarr-readarr \
   -e REFRESH_AUTHOR="true" \
   -e STATE_RESET_INTERVAL_HOURS="168" \
   -e DEBUG_MODE="false" \
-  huntarr/4readarr:1.0
+  huntarr/4readarr:latest
 ```
 
 ### SystemD Service
