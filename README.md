@@ -157,7 +157,7 @@ docker run -d --name huntarr-readarr \
   -e MONITORED_ONLY="true" \
   -e SKIP_FUTURE_RELEASES="true" \
   -e HUNT_MISSING_BOOKS="1" \
-  -e HUNT_UPGRADE_BOOKS="5" \
+  -e HUNT_UPGRADE_BOOKS="0" \
   -e SLEEP_DURATION="900" \
   -e RANDOM_SELECTION="true" \
   -e REFRESH_AUTHOR="true" \
@@ -189,7 +189,7 @@ services:
       MONITORED_ONLY: "true"
       SKIP_FUTURE_RELEASES: "true"
       HUNT_MISSING_BOOKS: "1"
-      HUNT_UPGRADE_BOOKS: "5"
+      HUNT_UPGRADE_BOOKS: "0"
       SLEEP_DURATION: "900"
       RANDOM_SELECTION: "true"
       REFRESH_AUTHOR: "true"
@@ -221,7 +221,7 @@ docker run -d --name huntarr-readarr \
   -e MONITORED_ONLY="true" \
   -e SKIP_FUTURE_RELEASES="true" \
   -e HUNT_MISSING_BOOKS="1" \
-  -e HUNT_UPGRADE_BOOKS="5" \
+  -e HUNT_UPGRADE_BOOKS="0" \
   -e SLEEP_DURATION="900" \
   -e RANDOM_SELECTION="true" \
   -e REFRESH_AUTHOR="true" \
@@ -252,7 +252,7 @@ Environment="API_TIMEOUT=60"
 Environment="MONITORED_ONLY=true"
 Environment="SKIP_FUTURE_RELEASES=true"
 Environment="HUNT_MISSING_BOOKS=1"
-Environment="HUNT_UPGRADE_BOOKS=5"
+Environment="HUNT_UPGRADE_BOOKS=0"
 Environment="SLEEP_DURATION=900"
 Environment="RANDOM_SELECTION=true"
 Environment="REFRESH_AUTHOR=true"
