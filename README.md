@@ -32,8 +32,8 @@ This script continually searches your Readarr library for books with missing fil
 ## Related Projects
 
 * [Huntarr - Sonarr Edition](https://github.com/plexguide/Huntarr-Sonarr) - Sister version for TV shows
-* [Huntarr - Radarr Edition](https://github.com/plexguide/Huntarr-Radarr) - Sister version for movies
-* [Huntarr - Lidarr Edition](https://github.com/plexguide/Huntarr-Lidarr) - Sister version for music
+* [Huntarr - Radarr Edition](https://github.com/plexguide/Huntarr-Radarr) - Sister version for Movies
+* [Huntarr - Lidarr Edition](https://github.com/plexguide/Huntarr-Lidarr) - Sister version for Music
 * [Unraid Intel ARC Deployment](https://github.com/plexguide/Unraid_Intel-ARC_Deployment) - Convert videos to AV1 Format (I've saved 325TB encoding to AV1)
 * Visit [PlexGuide](https://plexguide.com) for more great scripts
 
