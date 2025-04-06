@@ -163,7 +163,7 @@ docker run -d --name huntarr-readarr \
   -e REFRESH_AUTHOR="true" \
   -e STATE_RESET_INTERVAL_HOURS="168" \
   -e DEBUG_MODE="false" \
-  huntarr/huntarr-readarr:1.0
+  huntarr/4readarr:1.0
 ```
 
 To check on the status of the program, you should see new files downloading or you can type:
@@ -179,7 +179,7 @@ For those who prefer Docker Compose, add this to your `docker-compose.yml` file:
 version: "3.8"
 services:
   huntarr-readarr:
-    image: huntarr/huntarr-readarr:1.0
+    image: huntarr/4readarr:1.0
     container_name: huntarr-readarr
     restart: always
     environment:
@@ -227,7 +227,7 @@ docker run -d --name huntarr-readarr \
   -e REFRESH_AUTHOR="true" \
   -e STATE_RESET_INTERVAL_HOURS="168" \
   -e DEBUG_MODE="false" \
-  huntarr/huntarr-readarr:1.0
+  huntarr/4readarr:1.0
 ```
 
 ### SystemD Service
