@@ -75,6 +75,25 @@ My 12-year-old daughter is passionate about singing, dancing, and exploring STEM
    - Automatically resets this tracking after a configurable time period
 5. **Repeat Cycle**: Waits for a configurable period before starting the next cycle
 
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/aa4090a0-54ac-483d-a65d-6baae18b594a" width="100%"/>
+      <p align="center"><em>Missing Books Demo</em></p>
+    </td>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/94796621-af1b-43b7-8a0c-eef6d7c6cf47" width="100%"/>
+      <p align="center"><em>Quality Books Demo</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <img src="https://github.com/user-attachments/assets/3e95f6d5-4a96-4bb8-a5b9-1d7b871ff94a" width="100%"/>
+      <p align="center"><em>State Management System</em></p>
+    </td>
+  </tr>
+</table>
+
 ## Configuration Options
 
 The following environment variables can be configured:
