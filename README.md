@@ -8,7 +8,7 @@
   </tr>
 </table>
 
-**NOTE**: This utilizes Readarr API Version - `1`.
+**NOTE**: This utilizes Readarr API Version - `1`. Legacy Name of this Program: Readarr Hunter.
 
 ## Table of Contents
 - [Overview](#overview)
